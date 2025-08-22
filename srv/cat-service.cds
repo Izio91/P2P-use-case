@@ -6,4 +6,5 @@ service CatalogService {
     entity A_RequestForQuotationItem   as projection on my.A_RequestForQuotationItem;
     entity SupplierQuotation           as projection on my.SupplierQuotation;
     entity SupplierQuotationItem       as projection on my.SupplierQuotationItem;
+    entity AgentsEvaluation            as projection on my.AgentsEvaluation;
 }

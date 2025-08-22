@@ -184,3 +184,12 @@ entity SupplierQuotationItem {
       PurchasingDocumentItemCategory : String(1);
       LastChangeDateTime             : Timestamp;
 }
+
+
+entity AgentsEvaluation {
+  key RequestForQuotation   : String(10);
+  key SupplierQuotation     : String(10);
+  key SupplierQuotationItem : String(5);
+  key Agent                 : String(255);
+      Comments              : LargeString;
+}
